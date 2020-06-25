@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/original"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/textview"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:autofillHints=""
+        android:background="#8CFEFEFF"
+        android:ems="10"
+        android:hint="@string/quizes_15"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:autofillHints=""
+        android:background="#8CFEFEFF"
+        android:ems="10"
+        android:hint="@string/homework_25"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:autofillHints=""
+        android:background="#8CFEFEFF"
+        android:ems="10"
+        android:hint="@string/mid_terms_30"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/editText4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:autofillHints=""
+        android:background="#8CFEFEFF"
+        android:ems="10"
+        android:hint="@string/final_30"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/editText5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/shape"
+        android:padding="15dp"
+        android:text="@string/calculate"
+        android:textSize="35sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/shape"
+        android:padding="15dp"
+        android:text="@string/rest"
+        android:textSize="35sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignTop="@id/button2"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"/>
+
+
+</RelativeLayout>
